@@ -18,5 +18,13 @@ export function App() {
     });
   }
 
-  return <Button onClick={handleClick} variant={"primary"}>Add page</Button>;
+  return (
+    <div>
+      <p>Hello</p>
+      <Button onClick={handleClick} variant={"primary"}>
+        Add page
+      </Button>
+      ;
+    </div>
+  );
 }
